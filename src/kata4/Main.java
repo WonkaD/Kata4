@@ -6,9 +6,9 @@ import java.util.ArrayList;
 
 public class Main {
 
-    public static void main(String[] args) throws FileNotFoundException, IOException {
+    public static void main(String[] args) throws FileNotFoundException, IOException, ClassNotFoundException {
         String nameFile = "emails.txt";
-        ArrayList<String> mailArray = MailListReader.read(nameFile);
+        ArrayList<String> mailArray = MailListReaderDDBB.read();
         System.out.println(mailArray.size());
         
         Histogram <String> histogram = MailHistogramBuilder.build(mailArray);

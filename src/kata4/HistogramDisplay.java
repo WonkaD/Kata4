@@ -1,7 +1,6 @@
 package kata4;
 
 import java.awt.Dimension;
-import javax.swing.JFrame;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
